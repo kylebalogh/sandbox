@@ -1,0 +1,55 @@
+build
+build/*
+*.mode1v2
+*.mode1v3
+*.pbxuser
+*.perspective
+*.perspectivev3
+
+.DS_Store
+profile
+xcuserdata
+project.xcworkspace
+
+#ignore outputs of project
+build*/
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.xap
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+*.dbmdl
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+
+# TEC Custom
+Server/Build/Artifacts*/
+Server/Build/Release*/
+
+#Ignore the local uploads folders
+Server/Source/Mobile311Server.Web/Uploads*/
+
+#Include this tool
+!SQLAzureMW.exe
