@@ -200,6 +200,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		44AD807A13C387E2006E99FC /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kyle Balogh";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8B31F1B0-8D57-4AFF-A916-1BBCF6AAA029";
+				SDKROOT = iphoneos;
+			};
+			name = "Ad Hoc";
+		};
+		44AD807B13C387E2006E99FC /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeamCityTest/TeamCityTest-Prefix.pch";
+				INFOPLIST_FILE = "TeamCityTest/TeamCityTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
 		44BC6B3313BE3BF10034A163 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -268,6 +298,7 @@
 			buildConfigurations = (
 				44BC6B3313BE3BF10034A163 /* Debug */,
 				44BC6B3413BE3BF10034A163 /* Release */,
+				44AD807A13C387E2006E99FC /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -277,8 +308,10 @@
 			buildConfigurations = (
 				44BC6B3613BE3BF10034A163 /* Debug */,
 				44BC6B3713BE3BF10034A163 /* Release */,
+				44AD807B13C387E2006E99FC /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
